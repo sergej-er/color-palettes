@@ -12,7 +12,6 @@ function App() {
       <Switch>
         <Route exact path='/' component={Login} />
         <PrivateRoute exact path='/palettes' component={Home} />
-        <PrivateRoute exact path='/palettes/:sortBy' component={Home} />
         <PrivateRoute exact path='/palettes/create' component={Create} />
       </Switch>
     </AuthProvider>
